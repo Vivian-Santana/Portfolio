@@ -1,0 +1,19 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color:#ffff
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../img/fundo-cosmico-com-luzes-laser-de-neon-coloridas-perfeito-para-um-papel-de-parede-digital_181624-23743.webp);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: cover;
+}

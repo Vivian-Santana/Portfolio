@@ -2,11 +2,16 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    color:#ffff
+    color:rgb(179, 176, 176);
+    font-family: 'Poppins', sans-serif;
 }
 ul{
     list-style: none;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
 }
+
 a{
     text-decoration: none;
 }
@@ -16,4 +21,54 @@ body{
     background-repeat: no-repeat;
     background-position: center center fixed;
     background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li{
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+    align-items: space-evenly;
+}
+
+.nome h1 {
+    justify-content:center;
+    font-size: 40px;
+
+}
+
+.nome h5 {
+    font-size: 25px;
+}
+
+#sobre p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: floralwhite;
+}
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+.form input {
+    width: 50%;
+}
+
+.form button {
+    width: 15%;
 }

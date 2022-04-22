@@ -2,7 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    color:rgb(179, 176, 176);
+    color:floralwhite;
     font-family: 'Poppins', sans-serif;
 }
 ul{
@@ -42,17 +42,20 @@ header ul li{
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    padding: 10px;
+    padding: 150px;
     align-items: space-evenly;
 }
 
 .nome h1 {
+    display: flex;
     justify-content:center;
     font-size: 40px;
-
+    margin-left: 10px;
 }
 
 .nome h5 {
+    display: flex;
+    justify-content:center;
     font-size: 25px;
 }
 
@@ -61,9 +64,15 @@ header ul li{
     margin: 0 auto;
     color: floralwhite;
 }
+
+.img {
+    padding: 90px;
+}
+
 .form {
     width: 40%;
     margin: 0 auto;
+    padding-block-end: 200px;
 }
 .form input {
     width: 50%;
@@ -71,4 +80,8 @@ header ul li{
 
 .form button {
     width: 15%;
+}
+
+.div row {
+    justify-content:center;
 }

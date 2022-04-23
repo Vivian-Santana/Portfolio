@@ -38,13 +38,13 @@ header ul li{
     padding: 10px;
 }
 
-.container{
+/* .container{
     display: flex;
     justify-content: space-between; 
     align-items: center;
     padding: 150px;
     align-items: space-evenly;
-}
+} */
 
 .nome h1 {
     display: flex;

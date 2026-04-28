@@ -34,12 +34,94 @@
             </li>
           </ul>
         </nav>
-      </header>
+    </header>
 
     <main>
       <section>
-        <!-- Projeto 1 -->
-        <article id="projetos" class="projetos">
+
+       <!-- Projeto To do list -->
+       <article id="ToDoList"  class="projetos">
+        <h2>To do list</h2>
+        <p> Uma lista de tarefas simples, estilo to do, com as <strong>funcionalidades:</strong> criar, editar e excluir tarefas usando React com componentes funcionais e armazenando dados no local storage.
+        </p>
+
+        <h3>Tecnologias e técnicas usadas</h3>
+            <ul>
+                <li>HTML</li>
+                <li>SCSS</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>TypeScript</li>
+                <li>Media query</li>
+            </ul>
+
+            <div>
+              <img class="img-1" src="/assets/img/ToDoList-Web_desktop.png" alt="Print da página to do list">
+            </div>
+
+            <div class="projeto-links">
+                <a
+                  class="fa-brands fa-github fa-2x"
+                  target="_blank"
+                  href="https://github.com/Vivian-Santana/To-do-list"
+                  title="código fonte"
+                ></a>
+                <a 
+                  class="fa-solid fa-link fa-2x"
+                  target="_blank"
+                  href="https://to-do-list-vivi.netlify.app/"
+                  title="To do list"
+                  ></a>
+            </div>
+       </article>
+       <!-- Fim To do list -->
+
+      <!-- Projeto My Store -->
+      <article id="MyStore"  class="projetos">
+        <h2>My Store</h2>
+        <p>Página de produtos de um e-commerce Consumindo dados da API pública 
+          <span class="enfase"><a href="https://fakestoreapi.com/" target="_blank">Fake Store API</a>,</span>
+           
+          com as <strong>funcionalidades:</strong> Listagem de produtos,carrinho de compras, adicionar e remover itens do carrinho, exibição de imagem, preço, descrição e avaliação dos itens em cards responsivos.          
+        </p>
+
+        <h3>Tecnologias e técnicas usadas</h3>
+            <ul>
+                <li>HTML</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>yarn v1</li>
+                <li>Node.js</li>
+                <li>React Scripts</li>
+                <li>TypeScript 5</li>
+                <li>Media query</li>
+                <li>CSS com Styled Components</li>
+            </ul>
+
+            <div class="imgs-projeto">
+              <img src="/assets/img/MyStore-pag.png" alt="Print da página">
+              <img src="/assets/img/MyStore-carrinho.png" alt="Print do carrinho">
+            </div>
+
+            <div class="projeto-links">
+                <a
+                  class="fa-brands fa-github fa-2x"
+                  target="_blank"
+                  href="https://github.com/Vivian-Santana/My-Store"
+                  title="código fonte"
+                ></a>
+                <a 
+                  class="fa-solid fa-link fa-2x"
+                  target="_blank"
+                  href="https://mystore-vivi.netlify.app/"
+                  title="My Store"
+                  ></a>
+            </div>
+      </article>
+      <!-- Fim My Store -->
+
+      <!-- Projeto Vida Plus -->
+      <article id="projetos" class="projetos">
             <h2>Vida Plus</h2>
             <p><span class="enfase">Vida Plus</span> é um sistema de agendamento de consultas médicas, com as funcionalidades de cadastro de paciente, atualizar cadastro, login, reset de senha, agendamento e cancelamento de consulta, listagem de consultas agendadas e listagem de médicos disponíveis. Integrado a <span class="enfase"><a href="https://github.com/Vivian-Santana/Voll_Med" target="_blank">API Voll Med</a></span> adaptada para essa integração, desenvolvida com java, Spring Boot e MySQL.</p>
             <h3>Tecnologias usadas</h3>
@@ -166,7 +248,7 @@
             <div class="slides-mobile">
               <!-- imagens mobile -->
                 <div class="slide_first_mobile">
-                  <img src="/assets/img/vidaPlus/login-mobile.jpg" alt="imagem do login mobile">
+                  <img src="/assets/img/vidaPlus/login-mobile.png" alt="imagem do login mobile">
                 </div>
                 <div class="slide-m">
                   <img src="/assets/img/vidaPlus/cadastro-mobile.jpg" alt="imagem cadastro">
@@ -225,9 +307,9 @@
                <!--Fim Navigation manual mobile-->
           </div>
       </article>
-      <!-- Fim Projeto 1 -->
+      <!-- Fim Projeto Vida Plus -->
 
-      <!-- Projeto 2 -->
+      <!-- Projeto loginPage -->
       <article class="projetos loginPage">
         <h2>Login Page</h2>
         <p>É uma Minimal API de Login desenvolvida com .NET e C#</p>
@@ -257,10 +339,10 @@
                 ></a>
             </div>
       </article>
-      <!-- Fim Projeto 2 -->
+      <!-- Fim Projeto loginPage -->
 
-      <!-- Projeto 3 -->
-       <article class="projetos Alura_Books">
+      <!-- Projeto Alura_Books -->
+      <article class="projetos Alura_Books">
         <h2>Alura Books</h2>
         <p>Lading Page de venda de livros.</p>
 
@@ -293,10 +375,10 @@
                 <img class="mobile" src="/assets/img/AluraBooks-mobile.png" alt="Print da lading Page Alura books mobile">
           </div>
       </article>
-      <!-- Fim Projeto 3 -->
+      <!-- Fim Projeto Alura_Books -->
 
-      <!-- Projeto 4 -->
-       <article class="projetos Alura_Plus">
+      <!-- Projeto Alura_Plus -->
+      <article class="projetos Alura_Plus">
         <h2>Alura Plus</h2>
         <p>Um site para divulgação da Alura Plus, uma plataforma de streaming com os conteúdos educacionais da Alura.</p>
 
@@ -321,10 +403,10 @@
                   title="Link Alura Plus"
                   ></a>   
       </article>
-      <!-- Fim Projeto 4 -->
+      <!-- Fim Projeto Alura_Plus -->
 
-      <!-- Projeto 5 -->
-       <article class="projetos HBCard">
+      <!-- Projeto Birthday Car -->
+      <article class="projetos HBCard">
         <h2>Happy Birthday Card</h2>
         <p>Cartão digital e personalizado de feliz aniversário.</p>
 
@@ -355,10 +437,10 @@
             </div>
             
       </article>
-      <!-- Fim Projeto 5 -->
+      <!-- Fim Projeto Birthday Car -->
 
-            <!-- Projeto 6 -->
-       <article class="projetos FlexTurismos">
+       <!-- Projeto  Flex Turismos -->
+      <article class="projetos FlexTurismos">
         <h2>FlexTurismos</h2>
         <p>Landing page de uma agencia de turismo usando os fundamentos do flexbox</p>
 
@@ -384,10 +466,39 @@
                   title="Link Flex Turismos"
                   ></a>    -->
       </article>
-      <!-- Fim Projeto 6 -->
+      <!-- Fim Projeto  Flex Turismos -->
 
-            <!-- Projeto 7 -->
-       <article class="projetos calculadora">
+      <!-- Projeto Condicoes do tempo -->
+      <article id="CondicoesDoTempo"  class="projetos">
+        <h2>Condições do tempo</h2>
+        <p>Aplicação frontend integrada à API <span class="enfase"><a href="https://openweathermap.org/api" target="_blank">OpenWeather</a></span>, que busca a temperatura (em graus Celsius) de uma cidade informada pelo usuário.         
+        </p>
+
+        <h3>Tecnologias e técnicas usadas</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>TypeScript</li>
+                <li>Node.js</li>
+            </ul>
+
+            <div>
+              <img src="/assets/img/CondicoesDoTempo.png" alt="Print da página">
+            </div>
+
+            <div class="projeto-links">
+                <a
+                  class="fa-brands fa-github fa-2x"
+                  target="_blank"
+                  href="https://github.com/Vivian-Santana/Condicoes-do-tempo"
+                  title="código fonte"
+                ></a>
+            </div>
+      </article>
+      <!-- Fim ondicoes do tempo -->
+
+      <!-- Projeto calculadora -->
+      <article class="projetos calculadora">
         <h2>Calculadora</h2>
         <p>Calculadora com as quatro operações aritméticas básicas</p>
 
@@ -414,7 +525,36 @@
                   title="Link Calculadora"
                   ></a>   
       </article>
-      <!-- Fim Projeto 7 -->
+      <!-- Fim Projeto calculadora -->
+
+      <!-- Projeto Portfólio -->
+      <article id="Portfolio"  class="projetos">
+        <h2>Portfólio</h2>
+        <p>Este portfólio foi desenvovido como desafio de praticar as linguagens puras sem o auxilio de nenhuma biblioteca, mas com objetivo futuro de replica-lo com uma lib ou um framework.</p>
+
+        <h3>Tecnologias e técnicas usadas</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript Vanilla</li>
+                <li>Media query</li>
+                <li>keyframes</li>
+            </ul>
+
+            <div>
+              <img src="/assets/img/MeuPortfolio.png" alt="Print da página">
+            </div>
+
+            <div class="projeto-links">
+                <a
+                  class="fa-brands fa-github fa-2x"
+                  target="_blank"
+                  href="https://github.com/Vivian-Santana/Portfolio"
+                  title="código fonte"
+                ></a>
+            </div>
+      </article>
+      <!-- Fim Portfólio -->
       </section>
 
       <!-- Protótipos -->

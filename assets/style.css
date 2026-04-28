@@ -694,7 +694,7 @@ html, body{
     gap: 1rem;
     margin-bottom: 3rem;
     li {
-      list-style: disc;
+      list-style: inside;
       margin-left: 1rem;
       /* margin-bottom: 10px; */
     }
@@ -704,13 +704,25 @@ html, body{
     } */
   }
 
+  /* quando tem mais de uma img coloca lado a lado */
+  .imgs-projeto{
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+      
+      img{
+        width: 50%;
+      }
+  }
+
   .enfase a {
     text-decoration: none;
     color: var(--cor-secundaria);
 
     &:hover {
       text-decoration: underline;
-      color: var(--cor-verde-musgo);
+      /* color: var(--cor-verde-musgo); */
+      filter: brightness(1.4);
     }
   }
 
@@ -734,6 +746,7 @@ html, body{
     transition: transform 0.5s linear;
  }
 }
+
 
 #prototipos{
   .fa-brands.fa-figma{

@@ -675,6 +675,10 @@ html, body{
   p {
     margin-bottom: 1rem;
     line-height: 1.8;
+
+    .enfase {
+        color: var(--cor-secundaria);
+      }
   }
 
   h3 {
@@ -712,6 +716,16 @@ html, body{
       
       img{
         width: 50%;
+      }
+  }
+
+  .imgs-projeto-3{
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+      
+      img{
+        width: 33%;
       }
   }
 

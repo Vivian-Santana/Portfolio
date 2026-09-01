@@ -186,10 +186,16 @@ nav {
       margin-right: 1rem;
       padding: 0.5rem;
       border-radius: 0.5rem;
+      /* color: rgb(56, 238, 98); */
       color: rgb(106, 181, 241);
+      
       
       span{
         color: grey;
+      }
+
+      .nome{
+        color: var(--cor-fonte);
       }
       /* font-size: 2rem;
       font-weight: 500; */

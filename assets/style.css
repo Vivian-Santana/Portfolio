@@ -167,7 +167,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   align-items: flex-start;
   justify-items: flex-end;
-  margin-top: 6.25rem;
+  margin-top: 4rem;
 
   /*border: 1px solid purple;*/
 
@@ -183,11 +183,11 @@ nav {
     .tag {
       /* border: solid black; */
       background-color: rgb(31, 30, 30);
-      margin-right: 1rem;
       padding: 0.5rem;
       border-radius: 0.5rem;
       /* color: rgb(56, 238, 98); */
       color: rgb(106, 181, 241);
+      font-size: 1.5rem;
       
       
       span{
@@ -222,6 +222,7 @@ nav {
       font-size: 5.5rem;
       color: var(--cor-primaria);
       line-height: 3.5rem;
+      margin-top: 1rem;
 
       .enfase {
         color: var(--cor-secundaria);
@@ -413,6 +414,13 @@ footer {
       width: 2rem !important;
       height: auto;
     }
+
+    main{
+      #hero{
+        margin-top: 0;
+        padding-top: 0;
+      }
+    }
 }
 
 @media (max-width: 993px) {
@@ -454,6 +462,22 @@ footer {
 
   footer {
     margin: 0;
+  }
+}
+
+@media (max-width: 622px) and (min-width:200px){
+  
+  main{
+    #hero{
+      #home{
+
+        .tag{
+          padding: 0.5rem 0.0rem 0.5rem 0.5rem;
+          font-size: 1.2rem;
+        }
+        
+      }
+    }
   }
 }
 

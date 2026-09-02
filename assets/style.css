@@ -460,7 +460,7 @@ footer {
       #home{
 
         .tag{
-          padding: 0.5rem 0.0rem 0.5rem 0.5rem;
+          padding: 0.5rem;
           font-size: 25px;
         }
         
@@ -476,7 +476,7 @@ footer {
       #home{
 
         .tag{
-          padding: 0.5rem 0.0rem 0.5rem 0.5rem;
+          padding: 0.5rem;
           font-size: 15px;
         }
         
@@ -492,7 +492,7 @@ footer {
       #home{
 
         .tag{
-          padding: 0.5rem 0.0rem 0.5rem 0.5rem;
+          padding: 0.5rem;
           font-size: 20px;
         }
         
@@ -508,7 +508,7 @@ footer {
       #home{
 
         .tag{
-          padding: 0.5rem 0.0rem 0.5rem 0.5rem;
+          padding: 0.5rem;
           font-size: 15px;
         }
         
@@ -523,7 +523,7 @@ footer {
       #home{
 
         .tag{
-          padding: 0.5rem 0.0rem 0.5rem 0.5rem;
+          padding: 0.5rem;
           font-size: 13px;
         }
         
@@ -539,7 +539,7 @@ footer {
       #home{
 
         .tag{
-          padding: 0.5rem 0.0rem 0.5rem 0.5rem;
+          padding: 0.5rem;
           font-size: 10px;
         }
         
@@ -581,10 +581,6 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 4rem;
-
-    /*article{
-       margin-top: 5rem; 
-    }*/
 
     .foto-container {
       display: flex;

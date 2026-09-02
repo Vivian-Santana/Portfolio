@@ -390,7 +390,6 @@ footer {
   }
 }
 
-
 @media (max-width: 1133px){
   .foto-container {
     margin-left: 3rem;
@@ -414,13 +413,6 @@ footer {
       width: 2rem !important;
       height: auto;
     }
-
-    main{
-      #hero{
-        margin-top: 0;
-        padding-top: 0;
-      }
-    }
 }
 
 @media (max-width: 993px) {
@@ -428,10 +420,6 @@ footer {
   body {
     overflow-x: hidden;
   }
-
-  /* article{
-    margin-top: 3rem;
-  } */
     
   body {
     display: flex;
@@ -465,7 +453,7 @@ footer {
   }
 }
 
-@media (max-width: 622px) and (min-width:200px){
+@media (max-width: 1368px) and (min-width:984px){
   
   main{
     #hero{
@@ -473,7 +461,86 @@ footer {
 
         .tag{
           padding: 0.5rem 0.0rem 0.5rem 0.5rem;
-          font-size: 1.2rem;
+          font-size: 25px;
+        }
+        
+      }
+    }
+  }
+}
+
+@media (max-width: 1369px) and (min-width:995px){
+  
+  main{
+    #hero{
+      #home{
+
+        .tag{
+          padding: 0.5rem 0.0rem 0.5rem 0.5rem;
+          font-size: 15px;
+        }
+        
+      }
+    }
+  }
+}
+
+@media (max-width: 783px) and (min-width:619px){
+  
+  main{
+    #hero{
+      #home{
+
+        .tag{
+          padding: 0.5rem 0.0rem 0.5rem 0.5rem;
+          font-size: 20px;
+        }
+        
+      }
+    }
+  }
+}
+
+@media (max-width: 620px) and (min-width:501px){
+  
+  main{
+    #hero{
+      #home{
+
+        .tag{
+          padding: 0.5rem 0.0rem 0.5rem 0.5rem;
+          font-size: 15px;
+        }
+        
+      }
+    }
+  }
+}
+@media (max-width: 501px) and (min-width:397px){
+  
+  main{
+    #hero{
+      #home{
+
+        .tag{
+          padding: 0.5rem 0.0rem 0.5rem 0.5rem;
+          font-size: 13px;
+        }
+        
+      }
+    }
+  }
+}
+
+@media (max-width: 397px) and (min-width:300px){
+  
+  main{
+    #hero{
+      #home{
+
+        .tag{
+          padding: 0.5rem 0.0rem 0.5rem 0.5rem;
+          font-size: 10px;
         }
         
       }
